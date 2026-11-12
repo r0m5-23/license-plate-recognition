@@ -1,0 +1,41 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ambientes Python
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# YOLOv5 - outputs de treino
+runs/
+wandb/
+*.cache
+
+# Pesos e modelos
+*.pt
+*.pth
+*.weights
+*.onnx
+*.engine
+*.torchscript
+
+
+# Resultados temporários
+outputs/temp/
+results/temp/
+*.log
+
+# Ficheiros sensíveis
+.env
+*.key
+*.pem
+credentials.json
